@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pawan's News</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css" type="text.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container bg-secondary text-light" >
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
+                <a class="navbar-brand h1" href="#">MyNews</a>
+                <button class="navabar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#newsMenu" aria-controls="newsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon bg-light text-dark"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="newsMenu">
+                    <div class="navbar-nav ">
+                        <a href="#homepage" class="nav-item nav-link text-light">Home</a>
+                        <a href="#newspage" class="nav-item nav-link text-light">News</a>
+                        <a href="#Me" class="nav-item nav-link text-light">About</a>
+                        <a href="#ContactMe" class="nav-item nav-link text-light">Contact</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="jumbotron text-center bg-info text-light" id="homepage" style="font-weight: 500; font-style: italic;">
+                        <h2 class="display-4 ">Get the Latest News on Trending topics.</h2>
+                        <hr class="my-4">
+                        <p>Subscribe us! To catch on the latest news</p>
+                        
+                        <a href="www.facebook.com/pawanskillz" class="btn btn-danger btn-outline-light">Subscribe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row" >
+                <div class="col-md-12">
+                    <h2 class="text-center text-light">Headlines</h1>
+                        <hr class="my-4">
+                </div>
+            </div>
+            <div class="row">
+                <div class="card-deck">
+                    <div class="card bg-warning overflow-auto">
+                        <img src="corona.jpg" class="card-img-top img-fluid h-50 d-inline-block" >
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-size: 2em; font-weight: 700; text-decoration: underline; ">CoVid-19</h5>
+                            <p class="card-text " style="font-style: italic;">Covid-19 pandemic engulfing entire world. How many cases? What's the growth rate? What's the mortality rate? Click on Read more button for Answers</p>
+                            <a href="https://www.worldometers.info/coronavirus/" class="btn btn-danger btn-outline-light stretched-link">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card bg-info overflow-auto">
+                        <img src="staysafe.jpg" class="card-img-top img-fluid h-50 d-inline-block" >
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-size: 2em; font-weight: 700; text-decoration: underline; ">Stay Safe</h5>
+                            <p class="card-text " style="font-style: italic;">Wondering how to keep away from the deadly virus? What preventive measures to take? See what WHO says your Modus operendi must be.</p>
+                            <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public" class="btn btn-danger btn-outline-light stretched-link">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card bg-success overflow-auto">
+                        <img src="bse.webp" class="card-img-top img-fluid h-50 d-inline-block" >
+                        <div class="card-body" >
+                            <h5 class="card-title" style="font-size: 2em; font-weight: 700; text-decoration: underline; ">Covid-19 in BSE</h5>
+                            <p class="card-text" style="font-style: italic;">Covid-19 is not only affecting lives of people but is also hitting the economy of the World. check out Bombay Stock Exchange.</p>
+                            <a href="https://www.bseindia.com/" class="btn btn-danger btn-outline-light stretched-link align-bottom" >Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="text-center mt-3" style="font-style: italic;" id="newspage">Section wise news</h1>
+            <hr class="my-4">
+            <div class="row mt-5 bg-info text-light" id="st">
+                <div class="col-md-4 mt-2 mb-2" >
+                    <img src="rsz_sports.jpg" alt="Sports news" class="img-fluid float-left img-responsive h-110">
+                </div>
+                <div class="col-md-8 mt-4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 style="font-style: italic; font-family: Georgia, 'Times New Roman', Times, serif;"> Sports Aficionado?</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p style="font-size: 1.35em; font-style: italic; font-family: Georgia, 'Times New Roman', Times, serif;">
+                                Don't have time for tv? Wanna catch some sports news on the go? Well , you are at the right place. Click on the Go here button to procede.
+                            </p>   
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a class="btn btn-danger mb-2" href="https://sports.ndtv.com/">Go Here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 bg-info text-light" id="st">
+                <div class="col-md-4 mt-2 mb-2" >
+                    <img src="rsz_1ent.jpg" alt="Sports news" class="img-fluid float-left img-responsive h-110">
+                </div>
+                <div class="col-md-8 mt-4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 style="font-style: italic; font-family: Georgia, 'Times New Roman', Times, serif;"> Dull and boring Life?</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p style="font-size: 1.35em; font-style: italic; font-family: Georgia, 'Times New Roman', Times, serif;">
+                                Don't worry we are here to provide you an escape from you hectic lifestyle. Just Click on the Go here button to sail off to the world of Entertainment.
+                            </p>   
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a class="btn btn-danger mb-2" href="https://timesofindia.indiatimes.com/entertainment">Go Here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 bg-info text-light" id="st">
+                <div class="col-md-4 mt-2" >
+                    <img src="Pol.jpg" alt="Sports news" class="img-fluid float-left img-responsive h-110">
+                </div>
+                <div class="col-md-8 mt-4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 style="font-style: italic; font-family: Georgia, 'Times New Roman', Times, serif;"> World Politics</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p style="font-size: 1.35em; font-style: italic; font-family: Georgia, 'Times New Roman', Times, serif;">
+                                Are you a politics enthusiast? Want to catch up world politics. Click on the Go here button to procede.
+                            </p>   
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a class="btn btn-danger mb-2" href="https://sports.ndtv.com/">Go Here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <h1 class="text-center " style="font-style: italic;" id="Me">About Me</h1>
+            <div class="row mx-5 text-center bg-info text-light">
+                <img src="photo2.jpg" class="avatar rounded-circle mx-auto d-block w-25 h-25 mt-3" alt="My Pic">
+            </div>
+            <div class="row mx-5 text-center bg-info text-light">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 mt-4 mb-4">
+                    <address style="font-family: Georgia, 'Times New Roman', Times, serif; font-style: italic;">
+                        <h3 class="">Creator : Pawan Singh</h3>
+                        <h5>E-Mail --> <a style="color: aliceblue;" href="mailto:pmarsingh@gmail.com">Here</a>.</h5><br> 
+                        <h6>I am an aspiring developer and a linux enthusiast. <br>
+                        NIT Patna, Bihar<br>
+                        India.</h6>
+                        </address>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+            <hr class="my-4 mt-3">
+            <h1 class="mt-2 mb-3 text-center" style="font-style: italic;" id="ContactMe"> Contact Me</h1>
+            <div class="row justify-content-center align-items-center mt-3">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 bg-info text-center">
+                    <form >
+                        <div class="form-group text-light" style="margin-left: 20%; margin-right: 20%;">
+                            <label for="Maill">Email Id</label>
+                            <input type="email" id="Maill" class="form-control w-60" placeholder="Enter email id" aria-describedby="help">
+                            <small id="help" class="form-text text-light">We will not share it.</small>
+                        </div>
+                        <div class="form-group text-light" style="margin-left: 20%; margin-right: 20%;">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" class="form-control w-60" placeholder="Phone number">
+                        </div>
+                        <div class="form-group text-light" style="margin-left: 20%; margin-right: 20%;">
+                            <label for="namee">Name</label>
+                            <input type="text" id="namee" class="form-control w-60" placeholder="Your Name">
+                        </div>
+                        <button type="submit" class="btn btn-success mb-3"> Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="text-center bg-dark text-light center-block">
+                <p class="txt-railway">- Pawan Singh -</p>
+                    <a href="https://www.facebook.com/pawanskillz"><i id="social-fb" class="fa fa-facebook-square fa-2x social"></i></a>
+                    <a href="https://twitter.com/iampks99"><i id="social-tw" class="fa fa-twitter-square fa-2x social"></i></a>
+                    <a href="https://plus.google.com/+pmarsingh"><i id="social-gp" class="fa fa-google-plus-square fa-2x social"></i></a>
+                    <a href="mailto:pmarsingh@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
+                    <a href="https://www.instagram.com/brigadier_pratap"><i class="fa fa-instagram fa-2x social" id="insta" aria-hidden="true"></i></a>
+                    <a href="https://github.com/brigadierpratap"><i class="fa fa-github fa-2x social" id="insta" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </body>
+</html>
